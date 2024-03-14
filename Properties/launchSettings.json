@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "generateur_de_mot_de_passe": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\bijka\\OneDrive\\Desktop\\projet_perso\\generateur_de_mot_de_passe\\passwords_generator"
+    }
+  }
+}
