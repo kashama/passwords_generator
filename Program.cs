@@ -2,9 +2,29 @@
 {
     internal class Program
     {
+        static int DemanderNombre(string question)
+        {
+            while (true) 
+            {
+                Console.Write(question);
+                string reponse = Console.ReadLine();
+                try
+                {
+                    int  reponseInt = int.Parse(reponse);
+                    return reponseInt;
+
+                }
+                catch
+                {
+                    Console.WriteLine("Erreur: Vous devez entrer un nombre.");
+                }
+                
+            }
+            
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int longeurMotDePasse= DemanderNombre("Longeur de mot de passe:");
         }
     }
 }
